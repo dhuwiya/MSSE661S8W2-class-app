@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+</head>
+
+<body>
+  <h1>Hellow World</h1>
+  <p>
+
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Nulla porttitor massa id neque. Suspendisse sed nisi lacus sed viverra tellus in hac habitasse. Malesuada
+    fames ac turpis egestas sed tempus urna et pharetra. A pellentesque sit amet porttitor eget dolor morbi non arcu.
+    Sed risus pretium quam vulputate dignissim suspendisse. Aliquam id diam maecenas ultricies mi. Nulla aliquet
+    porttitor lacus luctus. Leo urna molestie at elementum eu facilisis. Ante in nibh mauris cursus mattis molestie a
+    iaculis at.
+
+
+  </p>
+<a href="http://google.com">Click Here</a>
+
+</body>
+<script>
+  String("Hello World!");
+  var string = "Hello World!";
+
+
+  Number("10");
+  var number = 10;
+
+  Array(1, 2, 3, 4, 5);
+  var array = [1, 2, 3, 4, 5];
+
+  for (var index = 0; index < array.length; index++) {
+    const element = array[index];
+    console.log(element);
+  }
+   for (var index in array) {
+      const element = array[index];
+      console.log(element); 
+   }
+  
+  var index = 0;
+  while (index < array.length
+  ) {
+   const element = array[index];
+   console.log(element);
+   index++;
+  }
+
+
+var strings = ['hello', 'world!'];
+var newStatement = strings.join(' ');
+var newStatement2 = strings.concat(['bob']);
+console.log(newStatement);
+console.log(newStatement2);
+
+var object = {
+thing: 'Bag of stuff',
+stuff: ['Bag one', 'Bag two']
+};
+//Function(a, b, c, d);
+function sum(a, b){ 
+  return a + b;
+}
+
+console.log(sum(3, 5));
+
+var person = {
+  name: "Bob",
+  age: 50,
+  likes: ['ice-cream', 'salsa dancing'],
+  doMath: function() {
+    return 'Bob likes math!'
+  }
+};
+
+console.log(person.age);
+console.log(person.doMath);
+console.log(person.doMath());
+
+
+var doMath = person.doMath;
+console.log(doMath());
+</script>
+</html>
